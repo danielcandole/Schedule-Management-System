@@ -1,0 +1,92 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+vir-e/
+
+# Packaging / PyInstaller build output
+/build/
+/dist/
+*.spec.bak
+*.manifest
+*.dist-info/
+
+# Generated executables
+*.exe
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local databases and runtime account data
+*.sqlite
+*.sqlite3
+*.db
+/authActivity/backend/db_for_all_user_account.txt
+/authActivity/backend/db_for_all_user_schedule.txt
+/authActivity/backend/db_for_all_user_task.txt
+/authActivity/backend/db_for_all_user_borrowed_books.txt
+/authActivity/backend/db_id_numbers.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage / profiling output
+*.prof
+.prof/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Cloud and service credentials
+credentials.json
+service-account*.json
+
+# Local configuration overrides
+config.local.*
+settings.local.*
+secrets.*
+
+# Local database exports and backups
+*.dump
+*.sql.gz
+*.sqlite-wal
+*.sqlite-shm
