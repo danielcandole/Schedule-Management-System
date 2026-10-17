@@ -1,8 +1,8 @@
-# Schedule-Management-System
+# Schedule-Management-System 2025
 
 ## Developers
-Daniel Candole
-Joreese Clyde
+Daniel Candole  
+Joreese Clyde  
 Novem Austria
 
 ## Installation
